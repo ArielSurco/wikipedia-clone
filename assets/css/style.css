@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 62.5%;
+}
+
+/*HEADER*/
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 8px;
+    height: 100px;
+    width: 100%;
+    font-family: Georgia, Times, Serif;
+}
+
+header .world-image {
+    margin-right: 5px;
+    margin-bottom: 3px;
+    width: 57px;
+    height: 52.14px;
+}
+
+header .title-container {
+    display: inline-block;
+    width: 152px;
+    height: 52.75px;
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+.title-container .title {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 25px;
+    background-image: url("https://bit.ly/3riWHoi");
+    background-position: 0 -218px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.title-container .phrase {
+    font-size: 0.88rem;
+    font-weight: 500;
+}
