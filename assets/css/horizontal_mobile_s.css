@@ -1,0 +1,29 @@
+header {
+    height: 123px;
+    padding: 0;
+}
+
+header .logo {
+    position: absolute;
+    margin: 0;
+    width: 200px;
+    height: 183px;
+    top: 190px;
+}
+
+header .title-container {
+    width: 176px;
+    height: 68.25px;
+    line-height: 2rem;
+}
+
+.title-container .title {
+    width: 176px;
+    height: 32px;
+    background-position: 0 -254px;
+}
+
+.title-container .phrase {
+    height: 33px;
+    font-size: 0.95rem;
+}
