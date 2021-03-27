@@ -39,10 +39,6 @@ main {
     text-align: center;
 }
 
-.lang-container:hover {
-    cursor: pointer;
-}
-
 .lang-container a {
     display: block;
     text-decoration: none;
@@ -50,6 +46,7 @@ main {
 
 .lang-container a:hover .lang {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .lang-container a:focus {
@@ -70,6 +67,99 @@ main {
     font-size: 0.83rem;
 }
 
+/*Search Section*/
+
+.search-section {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 44px;
+    order: -1;
+}
+
+.search-container {
+    padding: 0 10px;
+    height: 44px;
+    border: none;
+}
+
+.input-container {
+    display: inline-block;
+    width: calc(100% - 56px);
+    height: 100%;
+}
+
+.search-input {
+    display: inline-block;
+    padding: 8px 64px 8px 12px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #a2a9b1;
+    border-right: none;
+    border-radius: 2px 0 0 2px;
+}
+
+.search-input:focus {
+    border-color: #36c;
+    box-shadow: inset 0 0 0 1px #36c;
+    outline: none;
+}  
+
+.search-input:hover {
+    border-color: #72777d;
+}
+
+.select-container {
+    display: inline-block;
+    position: relative;
+    left: calc(100% - 50px);
+    bottom: calc(100% - 12px);
+    width: 45px;
+    height: 24px;
+}
+
+.select-container .lang-select {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    color: #54595d;
+    font-size: 0.85rem;
+}
+
+.select-container .select {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 3px;
+    margin-top: 2px;
+    width: 12px;
+    height: 8px;
+    border: none;
+    appearance: none;
+    background-image: url("https://bit.ly/39bt5Tq");
+    background-position: 0 -519px;
+    background-repeat: no-repeat;
+}
+
+.search-button {
+    display: inline-block;
+    float: right;
+    width: 56px;
+    height: 44px;
+    background-color: #36c;
+    border: none;
+    border-radius: 0 2px 2px 0;
+}
+
+.search-icon {
+    display: block;
+    margin: 0 auto;
+    width: 22px;
+    height: 22px;
+    background-image: url("https://bit.ly/39bt5Tq");
+    background-position: 0 -697px;
+    background-repeat: no-repeat;
+}
+
 /*Lang List Section*/
 
 .lang-list-section {
@@ -86,8 +176,18 @@ main {
     outline: 16px solid #ffffff;
     border: 1px solid #a2a9b1;
     border-radius: 2px;
-    background-color: #ffffff;
+    background-color: #f8f9fa;
     text-align: center;
+}
+
+.lang-list-button:focus {
+    border-color: #36c;
+    box-shadow: inset 0 0 0 1px #36c;
+}
+
+.lang-list-button:hover {
+    background-color: #fff;
+    border-color: #a2a9b1;
 }
 
 .lang-list-button .lang-list-icon {
