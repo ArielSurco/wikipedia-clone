@@ -1,0 +1,78 @@
+/*Lang Section*/
+
+.lang-section {
+    grid-template: repeat(5,45px) / repeat(2,156px);
+    row-gap: 18px;
+    justify-content: center;
+}
+
+.lang-container {
+    position: relative;
+    height: 45px;
+}
+
+
+/*Posicionamiento de los .lang-container de la izquierda*/
+.lang-container:nth-child(1), .lang-container:nth-child(9) {
+    right: 53px;
+}
+
+.lang-container:nth-child(3), .lang-container:nth-child(7) {
+    right: 99px;
+}
+
+.lang-container:nth-child(5) {
+    right: 108px;
+}
+
+.lang-container .lang {
+    margin-bottom: 2px;
+    font-size: 0.95rem;
+}
+/*Posicionamiento de los .lang-container de la derecha*/
+.lang-container:nth-child(2), .lang-container:nth-child(10) {
+    left: 33px;
+}
+
+.lang-container:nth-child(4), .lang-container:nth-child(8) {
+    left: 78px;
+}
+
+.lang-container:nth-child(6) {
+    left: 88px;
+}
+
+.lang-container .articles {
+    font-size: 0.8rem;
+}
+
+/*Search Section*/
+
+.search-section {
+    margin-top: 3px;
+    margin-bottom: 29px;
+    order: 0;
+}
+
+.search-container {
+    margin: 0 auto;
+    padding: 0;
+    width: 78%;
+    max-width: 450px;
+}
+
+/*Lang List Section*/
+
+.lang-list-button {
+    width: 290px;
+}
+
+.lang-list-button .lang-list-icon {
+    position: relative;
+    left: 6px;
+}
+
+.lang-list-button .down-arrow-icon {
+    position: relative;
+    right: 5px;
+}
