@@ -5,17 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./assets/css/horizontal_mobile_s.css" media="(min-width: 480px)">
     <title>Wikipedia</title>
 </head>
 <body>
     <footer class="footer">
         <div class="footer-top">
-            <div class="side-section">
-
+            <div class="side-top">
+                <span class="side-top__icon"></span>
+                <p class="side-top__text">
+                    Wikipedia is hosted by the <a class="side-top__text--link" href="#">Wikimedia Foundation</a>, a non-profit organization that also hosts a range of other projects.
+                </p>
             </div>
-            <div class="side-section">
-
+            <div class="side-bottom">
+                <span class="side-bottom__icon"></span>
+                <strong class="side-bottom__call2action">Download Wikipedia for Android or iOS</strong>
+                <p class="side-bottom__text">Save your favorite articles to read offline, sync your reading lists across devices and customize your reading experience with the official Wikipedia app.</p>
+                <ul class="side-bottom__apps-container">
+                    <li class="apps-container__app-container"><a href="#" class="apps-container__app apps-container__app--android"></a></li>
+                    <li class="apps-container__app-container"><a href="#" class="apps-container__app apps-container__app--ios"></a></li>
+                </ul>
             </div>
             <div class="other-projects-section">
                 <div class="project">
@@ -77,7 +86,7 @@
                         <span class="project__icon wikiversity"></span>
                         <div class="project__text-container">
                             <p class="text-container__text text-container__text--blue">Wikiversity</p>
-                            <p class="text-container__text text-container__text--gray">Free course material</p>
+                            <p class="text-container__text text-container__text--gray">Free course materials</p>
                         </div>
                     </a>
                 </div>
@@ -127,6 +136,11 @@
                     </a>
                 </div>
             </div>
+        </div>
+        <div class="footer-bottom">
+            <small class="footer-bottom__license">This page is available under the <a href="#" class="footer-bottom__license--link">Creative Commons Attribution-ShareAlike License</a></small>
+            <small class="footer-bottom__license"><a href="#" class="footer-bottom__license--link">Terms of Use</a></small>
+            <small class="footer-bottom__license"><a href="" class="footer-bottom__license--link">Privacy Policy</a></small>
         </div>
     </footer>
 </body>

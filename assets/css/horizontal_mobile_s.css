@@ -1,0 +1,71 @@
+/*Footer*/
+
+.footer-top {
+    padding: 12.8px 12.8px;
+}
+
+/*Seccion de otros proyectos*/
+
+.other-projects-section {
+    grid-template: repeat(4, 90px) / repeat(3, 1fr);
+}
+
+.project__link {
+    height: 59px;
+}
+
+.text-container__text--gray {
+    width: 100%;
+    color: #54595d;
+    line-height: 1.8rem;
+}
+
+.commons {
+    left: 1px;
+}
+
+.wikivoyage {
+    left: 5px;
+}
+
+.wiktionary {
+    left: 4px;
+}
+
+.wikibooks {
+    left: 6px;
+}
+
+
+.wikidata {
+    top: 5px;
+    left: -2px;
+}
+
+.wikiversity {
+    top: 11px;
+    left: 3px;
+}
+
+.wikiquote {
+    top: 8px;
+    left: 2px;
+}
+
+.mediawiki {
+    left: 1px;
+}
+
+.wikisource {
+    left: 5px;
+}
+
+.wikispecies {
+    top: 8px;
+    left: 2px;
+}
+
+.metawiki {
+    top: 20px;
+    left: 4px;
+}
