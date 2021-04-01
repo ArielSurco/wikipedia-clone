@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /*HEADER*/
 
 header {
@@ -166,7 +170,7 @@ main {
     vertical-align: middle;
     width: auto;
     color: #54595d;
-    font-size: 1.35rem;
+    font-size: 1.3rem;
 }
 
 .select-container .select {
@@ -249,7 +253,7 @@ main {
     padding: 0 5.4px;
     width: 235px;
     color: #36c;
-    font-size: 1.35rem;
+    font-size: 1.4rem;
     font-weight: 700;
 }
 
@@ -272,4 +276,317 @@ main {
     margin: -2.56rem 0 2.56rem;
     top: 9px;
     background-color: #c8ccd1;
+}
+
+.divisory-line {
+    display: block;
+    margin: 30px 0 2px 0;
+    padding: 0 13px 0 13px;
+    height: 1px;
+    background-color: #c8ccd1;
+}
+
+/*Footer*/
+
+.footer {
+    display: block;
+    width: 100%;
+    height: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer-top {
+    display: grid;
+    grid-template-areas: "side-top" 
+                         "other-projects"
+                         "side-bottom";
+    padding: 9.6px 6.4px 12.8px 6.4px;
+}
+
+.footer-bottom {
+    display: block;
+    text-align: center;
+    height: auto;
+}
+
+/*Side section*/
+
+.side-top {
+    display: block;
+    grid-area: side-top;
+    margin-bottom: 30px;
+    height: 112px;
+    text-align: center;
+}
+
+.side-top__icon {
+    display: block;
+    margin: 0 auto;
+    width: 42px;
+    height: 42px;
+    background-image: url("https://bit.ly/3rvYUg7");
+    background-position: 0 -212px;
+    background-repeat: no-repeat;
+}
+
+.side-top__text {
+    margin: 12px auto;
+    width: 99%;
+    color: #54595d;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+}
+
+.side-top__text--link {
+    color: #36c;
+    text-decoration: none;
+    font-size: inherit;
+}
+
+.side-bottom {
+    display: block;
+    grid-area: side-bottom;
+    margin-bottom: 32px;
+    height: 179px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.side-bottom__icon {
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    width: 42px;
+    height: 42px;
+    background-image: url("https://bit.ly/3rvYUg7");
+    background-position: 0 -719px;
+    background-repeat: no-repeat;
+    transform: scale(.7);
+}
+
+.side-bottom__call2action {
+    color: #36c;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.side-bottom__text {
+    margin: 28px auto 13px;
+    color: #54595d;
+    font-size: 1.3rem;
+    line-height: 1.9rem;
+}
+.apps-container__app-container {
+    display: inline-block;
+    border-radius: 5px;
+    list-style: none;
+}
+
+.apps-container__app {
+    display: block;
+    height: 38px;
+    background-repeat: no-repeat;
+}
+
+.apps-container__app--android {
+    margin-right: 3px;
+    width: 124px;
+    background-image: url("https://bit.ly/3rvYUg7");
+    background-position: 0 -541px;
+}
+
+.apps-container__app--ios {
+    width: 110px;
+    background-image: url("https://bit.ly/3rvYUg7");
+    background-position: 0 -579px;
+}
+
+.footer-bottom__license {
+    color: #54595d;
+    font-size: 1.3rem;
+    line-height: 2.1rem;
+}
+
+.footer-bottom__license:after {
+    content: "\2022";
+    display: inline-block;
+    margin: 0 5px 0 8px;
+}
+
+.footer-bottom__license:last-child::after {
+    content: none;
+}
+
+.footer-bottom__license--link {
+    text-decoration: none;
+    color: #36c;
+    font-size: inherit;
+}
+
+.side-top__text--link:hover, .side-bottom__call2action:hover, .footer-bottom__license--link:hover {
+    text-decoration: underline;
+}
+
+.side-top__text--link:focus, .side-bottom__call2action:focus, .footer-bottom__license--link:focus, .apps-container__app--android:focus, .apps-container__app--ios:focus, .project__link:focus {
+    outline: 1px solid #36c;
+}
+
+/*Seccion de otros proyectos*/
+
+.other-projects-section {
+    display: grid;
+    grid-area: other-projects;
+    grid-template: repeat(6,90px) / 1fr 1fr;
+    height: auto;
+}
+
+.project {
+    display: block;
+}
+
+.project__link {
+    display: block;
+    width: 98%;
+    height: 59px;
+}
+
+.project__icon {
+    display: inline-block;
+    position: relative;
+    background-image: url("https://bit.ly/3rvYUg7");
+    background-repeat: no-repeat;
+}
+
+.commons {
+    top: 6px;
+    left: 2px;
+    width: 47px;
+    height: 47px;
+    background-position: 0 0;
+}
+
+.wikivoyage {
+    top: 2px;
+    left: 7px;
+    width: 36px;
+    height: 36px;
+    background-position: 0 -446px;
+}
+
+.wiktionary {
+    top: 2px;
+    left: 7px;
+    width: 37px;
+    height: 37px;
+    background-position: 0 -482px;
+}
+
+.wikibooks {
+    top: 2px;
+    left: 7px;
+    width: 37px;
+    height: 37px;
+    background-position: 0 -126px;
+}
+
+.wikinews {
+    top: 7px;
+    left: 2px;
+    width: 47px;
+    height: 26px;
+    background-image: url("https://bit.ly/3u4Jkdk");
+}
+
+.wikidata {
+    top: 5px;
+    left: 1px;
+    width: 49px;
+    height: 49px;
+    background-position: 0 -163px;
+}
+
+.wikiversity {
+    top: 11px;
+    left: 4px;
+    width: 43px;
+    height: 37px;
+    background-position: 0 -409px;
+}
+
+.wikiquote {
+    top: 9px;
+    left: 4px;
+    width: 42px;
+    height: 42px;
+    background-position: 0 -286px;
+}
+
+.mediawiki {
+    top: 9px;
+    left: 4px;
+    width: 42px;
+    height: 42px;
+    background-position: 0 -47px;
+}
+
+.wikisource {
+    top: 1px;
+    left: 6px;
+    width: 39px;
+    height: 39px;
+    background-position: 0 -328px;
+}
+
+.wikispecies {
+    top: 9px;
+    left: 4px;
+    width: 42px;
+    height: 42px;
+    background-position: 0 -367px;
+}
+
+.metawiki {
+    top: 21px;
+    left: 7px;
+    width: 37px;
+    height: 37px;
+    background-position: 0 -89px;
+}
+
+.project__text-container {
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    float: right;
+    width: calc(100% - 54px);
+}
+
+.text-container__text {
+    font-size: 1.3rem;
+}
+
+.text-container__text--blue {
+    color: #36c;
+    line-height: 2rem;
+}
+
+.text-container__text--gray {
+    width: 98%;
+    color: #54595d;
+    line-height: 1.8rem;
+}
+
+@media (min-width: 375px) {
+    .side-top {
+        margin-bottom: 12px;
+    }
+
+    .side-top__text {
+        width: 100%;
+    }
+
+    .text-container__text--blue {
+        font-size: 1.4rem;
+    }
 }

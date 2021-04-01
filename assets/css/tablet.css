@@ -51,3 +51,69 @@ header .logo {
 .lang-list-button .down-arrow-icon {
     right: 3px;
 }
+.footer-top {
+    grid-template: 108px 302px / 35% 65%;
+    grid-template-areas: "side-top other-projects"
+                         "side-bottom other-projects";
+    padding: 41.6px 12.8px 12.8px;
+}
+
+.side-top {
+    height: auto;
+    text-align: start;
+}
+
+.side-top__icon {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.side-top__text {
+    display: inline-block;
+    margin: 0;
+    width: 70%;
+}
+
+.side-bottom {
+    position: relative;
+    padding: 8px 20px 8px 60px;
+    height: auto;
+    text-align: start;
+}
+
+.side-bottom__icon {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    transform: none;
+}
+
+.side-bottom__call2action {
+    line-height: 1.9rem;
+}
+
+.side-bottom__text {
+    margin: 13px 0;
+}
+
+.apps-container__app--android {
+    margin-bottom: -2px;
+}
+
+.footer-bottom {
+    margin-bottom: 1.6rem;
+}
+
+@media (min-width:936px) {
+    .side-bottom {
+        height: 175px;
+        padding-bottom: 0;
+        margin-bottom: 62px;
+    }
+
+    .apps-container__app--android {
+        margin-bottom: 0;
+    }
+}
