@@ -10,10 +10,6 @@
     grid-template: repeat(4, 90px) / repeat(3, 1fr);
 }
 
-.project__link {
-    height: 59px;
-}
-
 .text-container__text--gray {
     width: 100%;
     color: #54595d;

@@ -1,0 +1,72 @@
+.footer-top {
+    grid-template-rows: 89px 275px;
+}
+
+
+.side-top {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.side-bottom {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.commons {
+    top: 0;
+    left: 1px;
+}
+
+.wikivoyage {
+    left: 4px;
+}
+
+.wiktionary {
+    top: 1px;
+    left: 0;
+}
+
+.wikibooks {
+    top: 1px;
+}
+
+.wikinews {
+    top: 7px;
+    left: -1px;
+}
+
+.wikidata {
+    top: 0;
+    left: -6px;
+}
+
+.wikiversity {
+    top: 1px;
+}
+
+.wikiquote {
+    top: 0;
+    left: 1px;
+}
+
+.mediawiki {
+    top: 0;
+    left: -2px;
+}
+
+.wikisource {
+    top: 0;
+}
+
+.wikispecies {
+    top: 0;
+    left: 1px;
+}
+
+.metawiki {
+    top: 11px;
+    left: 0;
+}

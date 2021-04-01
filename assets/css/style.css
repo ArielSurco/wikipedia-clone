@@ -1,11 +1,8 @@
 * {
     font-size: 62.5%;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
-    box-sizing: border-box;
 }
 
 /*Footer*/
@@ -53,7 +50,7 @@ body {
 
 .side-top__text {
     margin: 12px auto;
-    width: 98%;
+    width: 99%;
     color: #54595d;
     font-size: 1.3rem;
     line-height: 1.9rem;
@@ -88,6 +85,7 @@ body {
 
 .side-bottom__call2action {
     color: #36c;
+    text-decoration: none;
     font-weight: 700;
     font-size: 1.3rem;
 }
@@ -145,6 +143,14 @@ body {
     font-size: inherit;
 }
 
+.side-top__text--link:hover, .side-bottom__call2action:hover, .footer-bottom__license--link:hover {
+    text-decoration: underline;
+}
+
+.side-top__text--link:focus, .side-bottom__call2action:focus, .footer-bottom__license--link:focus, .apps-container__app--android:focus, .apps-container__app--ios:focus, .project__link:focus {
+    outline: 1px solid #36c;
+}
+
 /*Seccion de otros proyectos*/
 
 .other-projects-section {
@@ -160,7 +166,8 @@ body {
 
 .project__link {
     display: block;
-    height: 57px;
+    width: 98%;
+    height: 59px;
 }
 
 .project__icon {
@@ -301,6 +308,4 @@ body {
     .text-container__text--blue {
         font-size: 1.4rem;
     }
-
-
 }

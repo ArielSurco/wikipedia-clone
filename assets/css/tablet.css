@@ -6,6 +6,7 @@
 }
 
 .side-top {
+    height: auto;
     text-align: start;
 }
 
@@ -23,6 +24,7 @@
 }
 
 .side-bottom {
+    position: relative;
     padding: 8px 20px 8px 60px;
     height: auto;
     text-align: start;
@@ -30,9 +32,9 @@
 
 .side-bottom__icon {
     position: absolute;
-    top: 158px;
-    left: 21px;
-    transform: scale(1);
+    top: 8px;
+    left: 8px;
+    transform: none;
 }
 
 .side-bottom__call2action {
@@ -45,4 +47,16 @@
 
 .apps-container__app--android {
     margin-bottom: -2px;
+}
+
+@media (min-width:936px) {
+    .side-bottom {
+        height: 175px;
+        padding-bottom: 0;
+        margin-bottom: 62px;
+    }
+
+    .apps-container__app--android {
+        margin-bottom: 0;
+    }
 }
