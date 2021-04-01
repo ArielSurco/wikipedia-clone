@@ -49,3 +49,227 @@ header .title-container {
     font-size: 1.4rem;
     font-weight: 500;
 }
+
+/*MAIN*/
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Lato, Helvetica, Arial, sans-serif;
+}
+
+/*Lang Section*/
+
+.lang-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 61px);
+    row-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    width: 100vw;
+    height: 320px;
+}
+
+.lang-container {
+    padding: 0 16px;
+    width: 100%;
+    max-width: 156px;
+    height: 61px;
+    text-align: center;
+}
+
+.lang-container a {
+    display: block;
+    text-decoration: none;
+}
+
+.lang-container a:hover .lang {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.lang-container a:focus {
+    outline: 1px solid #36c;
+}
+
+.lang-container .lang {
+    display: inline-block;
+    margin-bottom: 6px;
+    color: #36c;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.lang-container .articles {
+    display: inline-block;
+    color: #54585D;
+    font-size: 1.3rem;
+}
+
+/*Search Section*/
+
+.search-section {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 44px;
+    order: -1;
+}
+
+.search-container {
+    padding: 0 10px;
+    height: 44px;
+    border: none;
+}
+
+.input-container {
+    display: inline-block;
+    width: calc(100% - 56px);
+    height: 100%;
+}
+
+.search-input {
+    display: inline-block;
+    padding: 8px 64px 8px 12px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #a2a9b1;
+    border-right: none;
+    border-radius: 2px 0 0 2px;
+    font-size: 1.6rem;
+}
+
+.search-input:hover {
+    border-color: #72777d;
+}
+
+.search-input:focus {
+    border-color: #36c;
+    box-shadow: inset 0 0 0 1px #36c;
+    outline: none;
+}  
+
+.select-container {
+    display: inline-block;
+    position: relative;
+    left: calc(100% - 50px);
+    bottom: calc(100% - 12px);
+    width: 45px;
+    height: 24px;
+}
+
+.select-container .lang-select {
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    color: #54595d;
+    font-size: 1.35rem;
+}
+
+.select-container .select {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 3px;
+    margin-top: 2px;
+    width: 12px;
+    height: 8px;
+    border: none;
+    appearance: none;
+    background-image: url("https://bit.ly/39bt5Tq");
+    background-position: 0 -519px;
+    background-repeat: no-repeat;
+}
+
+.search-button {
+    display: inline-block;
+    float: right;
+    width: 56px;
+    height: 44px;
+    background-color: #36c;
+    border: none;
+    border-radius: 0 2px 2px 0;
+}
+
+.search-icon {
+    display: block;
+    margin: 0 auto;
+    width: 22px;
+    height: 22px;
+    background-image: url("https://bit.ly/39bt5Tq");
+    background-position: 0 -697px;
+    background-repeat: no-repeat;
+}
+
+/*Lang List Section*/
+
+.lang-list-section {
+    z-index: 1;
+    width: 100%;
+    height: 36px;
+}
+
+.lang-list-button {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 100%;
+    outline: 16px solid #ffffff;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+
+.lang-list-button:focus {
+    border-color: #36c;
+    box-shadow: inset 0 0 0 1px #36c;
+}
+
+.lang-list-button:hover {
+    background-color: #fff;
+    border-color: #a2a9b1;
+}
+
+.lang-list-button .lang-list-icon {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+    background-image: url("https://bit.ly/39bt5Tq");
+    background-position: 0 -617px;
+    background-repeat: no-repeat;
+}
+
+.lang-list-button .lang-list-text {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 5.4px;
+    width: 235px;
+    color: #36c;
+    font-size: 1.35rem;
+    font-weight: 700;
+}
+
+.lang-list-button .down-arrow-icon {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    background-image: url("https://bit.ly/39bt5Tq");
+    background-position: 0 -527px;
+    background-repeat: no-repeat;
+}
+
+.cross-line {
+    display: block;
+    position: relative;
+    width: 80%;
+    max-width: 460px;
+    height: 1px;
+    margin: -2.56rem 0 2.56rem;
+    top: 9px;
+    background-color: #c8ccd1;
+}

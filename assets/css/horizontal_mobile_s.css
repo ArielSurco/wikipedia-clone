@@ -1,5 +1,6 @@
 header {
     height: 123px;
+    margin-bottom: 14px;
     padding: 0;
 }
 
@@ -8,7 +9,7 @@ header .logo {
     margin: 0;
     width: 200px;
     height: 183px;
-    top: 197px;
+    top: 190px;
 }
 
 header .title-container {
@@ -26,4 +27,79 @@ header .title-container {
 .title-container .phrase {
     height: 33px;
     font-size: 1.5rem;
+}
+
+/*Lang Section*/
+
+.lang-section {
+    grid-template: repeat(5,45px) / repeat(2,156px);
+    row-gap: 18px;
+    justify-content: center;
+}
+
+.lang-container {
+    position: relative;
+    height: 45px;
+}
+
+.lang-container .lang {
+    margin-bottom: 2px;
+    font-size: 1.5rem;
+}
+
+.lang-container .articles {
+    font-size: 1.3rem;
+}
+
+/*Posicionamiento de los .lang-container de la izquierda*/
+.lang-container:nth-child(1), .lang-container:nth-child(9) {
+    right: 53px;
+}
+
+.lang-container:nth-child(3), .lang-container:nth-child(7) {
+    right: 99px;
+}
+
+.lang-container:nth-child(5) {
+    right: 108px;
+}
+
+/*Posicionamiento de los .lang-container de la derecha*/
+.lang-container:nth-child(2), .lang-container:nth-child(10) {
+    left: 33px;
+}
+
+.lang-container:nth-child(4), .lang-container:nth-child(8) {
+    left: 78px;
+}
+
+.lang-container:nth-child(6) {
+    left: 88px;
+}
+
+/*Search Section*/
+
+.search-section {
+    margin-top: 3px;
+    margin-bottom: 29px;
+    order: 0;
+}
+
+.search-container {
+    margin: 0 auto;
+    padding: 0;
+    width: 78%;
+    max-width: 450px;
+}
+
+/*Lang List Section*/
+
+.lang-list-button .lang-list-icon {
+    position: relative;
+    left: 5px;
+}
+
+.lang-list-button .down-arrow-icon {
+    position: relative;
+    right: 5px;
 }
