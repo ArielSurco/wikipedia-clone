@@ -19,14 +19,16 @@ body {
 
 .footer-top {
     display: grid;
-    grid-template-areas: "side-top" "other-projects" "side-bottom";
+    grid-template-areas: "side-top" 
+                         "other-projects"
+                         "side-bottom";
     padding: 9.6px 6.4px 12.8px 6.4px;
 }
 
 .footer-bottom {
     display: block;
     text-align: center;
-    height: 63px;
+    height: auto;
 }
 
 /*Side section*/
@@ -49,7 +51,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.side-top__text, .side-bottom__text {
+.side-top__text {
     margin: 12px auto;
     width: 98%;
     color: #54595d;
@@ -92,11 +94,10 @@ body {
 
 .side-bottom__text {
     margin: 28px auto 13px;
-    width: 98%;
     color: #54595d;
     font-size: 1.3rem;
+    line-height: 1.9rem;
 }
-
 .apps-container__app-container {
     display: inline-block;
     border-radius: 5px;
@@ -150,7 +151,7 @@ body {
     display: grid;
     grid-area: other-projects;
     grid-template: repeat(6,90px) / 1fr 1fr;
-    height: 540px;
+    height: auto;
 }
 
 .project {
@@ -289,7 +290,17 @@ body {
 }
 
 @media (min-width: 375px) {
+    .side-top {
+        margin-bottom: 12px;
+    }
+
+    .side-top__text {
+        width: 100%;
+    }
+
     .text-container__text--blue {
         font-size: 1.4rem;
     }
+
+
 }
