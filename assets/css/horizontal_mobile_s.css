@@ -8,13 +8,13 @@ header .logo {
     margin: 0;
     width: 200px;
     height: 183px;
-    top: 190px;
+    top: 197px;
 }
 
 header .title-container {
     width: 176px;
     height: 68.25px;
-    line-height: 2rem;
+    line-height: 3.2rem;
 }
 
 .title-container .title {
@@ -25,5 +25,5 @@ header .title-container {
 
 .title-container .phrase {
     height: 33px;
-    font-size: 0.95rem;
+    font-size: 1.5rem;
 }

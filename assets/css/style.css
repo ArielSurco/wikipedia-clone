@@ -1,11 +1,8 @@
 * {
+    font-size: 62.5%;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
-    font-size: 62.5%;
 }
 
 /*HEADER*/
@@ -32,7 +29,7 @@ header .title-container {
     width: 152px;
     height: 52.75px;
     text-align: center;
-    line-height: 1.6rem;
+    line-height: 2.56rem;
 }
 
 .title-container .title {
@@ -49,6 +46,6 @@ header .title-container {
 .title-container .phrase {
     display: block;
     height: 25px;
-    font-size: 0.88rem;
+    font-size: 1.4rem;
     font-weight: 500;
 }
